@@ -6,10 +6,12 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Huddle</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="page-wrapper">
+    <div class="hero">
         <header>
             <div class="logo">
                 <img src="images/logo.svg" alt="logo-img">
@@ -32,47 +34,60 @@
                 <img src="images/illustration-mockups.svg" alt="">
             </div>
         </section>
+    </div>
 
-        <section class="grow-section">
-            <img src="images/illustration-grow-together.svg" alt="grow-together-img">
-            <h1>Grow Together</h1>
-            <p>Generate meaningful discussions with your audience and build a strong, loyal community. Think of the
-                insightful conversations you miss out on with a feedback form.</p>
+    <div class="main">
+        <section class="grow-section info">
+            <div class="content">
+                <img src="images/illustration-grow-together.svg" alt="grow-together-img">
+                <h1 class="desc-header">Grow Together</h1>
+                <p class="desc-text">Generate meaningful discussions with your audience and build a strong, loyal
+                    community. Think of
+                    the
+                    insightful conversations you miss out on with a feedback form.</p>
+            </div>
         </section>
 
-        <section class="convo-section">
-            <img src="images/illustration-flowing-conversation.svg" alt="conversation image">
-            <h1>Flowing Conversations</h1>
-            <p>You wouldn't paginate a conversation in real life, so why do it online? Our threads have just-in-time
-            loading for a more natural flow.</p>
+        <section class="convo-section info">
+            <div class="content">
+                <img src="images/illustration-flowing-conversation.svg" alt="conversation image">
+                <h1 class="desc-header">Flowing Conversations</h1>
+                <p class="desc-text">You wouldn't paginate a conversation in real life, so why do it online? Our threads
+                have just-in-time
+                loading for a more natural flow.</p>
+            </div>
         </section>
 
-        <section class="users-section">
-            <img src="images/illustration-your-users.svg" alt="Users image">
-            <h1>Your Users</h1>
-            <p>It takes no time at all to integrate Huddle with your app's authentication solution. This means, once
-            signed in to your app, your users can start chatting immediately.</p>
+        <section class="users-section info">
+            <div class="content">
+                <img src="images/illustration-your-users.svg" alt="Users image">
+                <h1 class="desc-header">Your Users</h1>
+                <p class="desc-text">It takes no time at all to integrate Huddle with your app's authentication solution. This means, once
+                signed in to your app, your users can start chatting immediately.</p>
+            </div>
         </section>
 
         <section class="community-section">
-            <h1>Ready to build your community?</h1>
-            <p>Get Started For Free</p>
+            <h1 class="desc-header">Ready to build your community?</h1>
+            <p class="desc-text">Get Started For Free</p>
         </section>
+    </div>
 
-        <footer>
-            <div class="logo">
-                <img src="images/logo.svg" alt="Huddle logo">
+    <footer>
+        <div class="container">
+            <div class="footer-logo">
+                <img src="images/footer-logo.svg" alt="Huddle logo">
             </div>
             <div class="contact">
-                <div class="location">
+                <div class="location contact-info">
                     <img src="images/icon-location.svg" alt="">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem debitis distinctio ipsum iste modi obcaecati recusandae saepe tempore vero!</p>
                 </div>
-                <div class="phone">
+                <div class="phone contact-info">
                     <img src="images/icon-phone.svg" alt="">
                     <p>+1-543-123-4567</p>
                 </div>
-                <div class="mail">
+                <div class="mail contact-info">
                     <img src="images/icon-email.svg" alt="">
                     <p>example@fylo.com</p>
                 </div>
@@ -88,14 +103,14 @@
                 </ul>
             </div>
             <div class="social-and-copyrights">
-                <div>
-                    <i>f</i>
-                    <i>t</i>
-                    <i>i</i>
+                <div class="social-icons">
+                    <img src="images/facebook-brands.svg" alt="">
+                    <img src="images/twitter-brands.svg" alt="">
+                    <img src="images/instagram-brands.svg" alt="">
                 </div>
-                <p>&copy; Copyright 2018 Huddle. All rights reserved</p>
+                <p>&copy; Copyright 2018 Huddle. All rights reserved.</p>
             </div>
-        </footer>
-    </div>
+        </div>
+    </footer>
 </body>
 </html>
