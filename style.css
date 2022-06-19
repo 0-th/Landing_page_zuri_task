@@ -191,7 +191,7 @@ footer ul {
 }
 
 .footer-logo img {
-    width: 40%;
+    width: 200px;
 }
 
 .contact {
@@ -233,10 +233,10 @@ footer ul {
 }
 
 .social-and-copyrights img {
-    width: 8%;
+    width: 35px;
     border: 1px solid #ffffff;
     border-radius: 50px;
-    padding: 8px;
+    padding: 7px;
     margin-right: 10px;
 }
 
