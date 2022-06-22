@@ -44,6 +44,10 @@ header .free-btn {
     color: var(--dark-cyan);
 }
 
+header .free-btn:active {
+    color: hsla(192, 100%, 10%, 0.6);
+}
+
 .hero .about {
     width: 90%;
     margin: 100px auto 0 auto;
@@ -84,6 +88,10 @@ header .free-btn {
     padding: 13px 30px 13px 30px;
     font-size: 15px;
     cursor: pointer;
+}
+
+.about .about-btn:active {
+    background-color: hsla(322, 100%, 66%, 0.5);
 }
 
 .about-img {
@@ -163,6 +171,10 @@ header .free-btn {
     cursor: pointer;
 }
 
+.community-section p:active {
+    background-color: hsla(322, 100%, 66%, 0.5);
+}
+
 footer {
     background-color: var(--dark-cyan);
     color: #ffffff;
@@ -209,6 +221,12 @@ footer ul {
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     margin-top: 20px;
+    cursor: pointer;
+    width: max-content;
+}
+
+.other-pages li:hover {
+    border-bottom: 1px solid #ffffff;
 }
 
 .social-and-copyrights {
@@ -227,9 +245,6 @@ footer ul {
     padding: 7px;
     margin-right: 10px;
     cursor: pointer;
-}
-
-.social-and-copyrights img:hover {
 }
 
 .social-and-copyrights p {
