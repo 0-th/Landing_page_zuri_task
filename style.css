@@ -228,7 +228,8 @@ footer ul {
     width: max-content;
 }
 
-.other-pages li:hover {
+.other-pages li:hover,
+.other-pages li:active {
     border-bottom: 1px solid #ffffff;
 }
 
@@ -248,6 +249,21 @@ p#copy-text {
     padding: 7px;
     margin-right: 10px;
     cursor: pointer;
+}
+
+.social-and-copyrights #fb-icon:hover,
+.social-and-copyrights #fb-icon:active {
+    filter:  invert(0.4) sepia(1) saturate(20) hue-rotate(288deg) brightness(1);
+}
+
+.social-and-copyrights #tw-icon:hover,
+.social-and-copyrights #tw-icon:active {
+    filter:  invert(0.4) sepia(1) saturate(20) hue-rotate(288deg) brightness(1);
+}
+
+.social-and-copyrights #in-icon:hover,
+.social-and-copyrights #in-icon:active {
+    filter:  invert(0.4) sepia(1) saturate(20) hue-rotate(288deg) brightness(1);
 }
 
 p#copy-text {
