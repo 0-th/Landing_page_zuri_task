@@ -357,7 +357,8 @@ p#copy-text {
         width: 100%;
     }
 
-    .info .content {
+    .grow-section.info .content,
+    .users-section.info .content {
         display: grid;
         grid-template-columns: 1.5fr 1fr;
         justify-content: center;
@@ -374,7 +375,7 @@ p#copy-text {
         gap: 200px;
     }
 
-    section .content img,
+    .grow-section .content img,
     .users-section .content img {
         grid-area: image;
     }
