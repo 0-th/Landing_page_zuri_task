@@ -30,6 +30,7 @@ header {
 
 .logo img {
     width: 118px;
+    animation: SlideInFromLeft 1s ease-in;
 }
 
 header .free-btn {
@@ -42,6 +43,7 @@ header .free-btn {
     box-shadow: var(--shadow);
     cursor: pointer;
     color: var(--dark-cyan);
+    animation: SlideInFromRight 1s ease-in;
 }
 
 header .free-btn:active {
@@ -51,10 +53,8 @@ header .free-btn:active {
 .hero .about {
     width: 90%;
     margin: 100px auto 0 auto;
-}
-
-.about {
     padding: 0 30px 0 30px;
+    animation: SlideInFromBottom 1.5s ease-in;
 }
 
 .about-text p, .about-text h1 {
@@ -111,7 +111,7 @@ header .free-btn:active {
 .main .info {
     box-shadow: var(--shadow);
     border-radius: 20px;
-     padding: 50px;
+    padding: 50px;
     margin-top: 45px;
 }
 
@@ -258,6 +258,40 @@ p#copy-text {
     color: #ffffff;
 }
 
+/*Animations*/
+@keyframes SlideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+@keyframes SlideInFromRight {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+@keyframes SlideInFromTop {
+    0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+@keyframes SlideInFromBottom {
+    0% {
+        transform: translateY(100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
 /*Desktop and tablets*/
 
 @media  screen and (min-width: 768px) {
@@ -290,6 +324,7 @@ p#copy-text {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        animation: SlideInFromLeft 1.35s ease-in;
     }
 
     .about-text h1 {
@@ -315,6 +350,7 @@ p#copy-text {
     .about-img {
         margin: 0;
         justify-self: flex-end;
+        animation: SlideInFromRight 1.35s ease-in;
     }
 
     .about-img img {
